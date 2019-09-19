@@ -1,0 +1,14 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: Changa-Regular
+font link: https://www.fontsquirrel.com/fonts/changa
+font author: Eduardo Tunni
+font author site: http://www.tipo.net.ar/
+
+
+icon designer: Yang LIU
+icon designer link: /cyange.liu
+        
+{"bg":"#F3E5E6","icon-gradient-0":"#420F14","icon-gradient-1":"#C5545E","font":"#40181B","slogan":"#542c2f"}
+      
