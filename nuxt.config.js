@@ -1,4 +1,5 @@
 module.exports = {
+  mode: 'spa',
   /*
   ** Headers of the page
   */
@@ -12,13 +13,14 @@ module.exports = {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'stylesheet',  href: 'https://fonts.googleapis.com/css?family=Changa&display=swap' },
-      { rel: 'stylesheet',  type: 'ext/css', href: 'https://unpkg.com/augmented-ui/augmented.css' }
+      { rel: 'stylesheet',  type: 'text/css', href: 'https://unpkg.com/augmented-ui/augmented.css' }
     ]
   },
   /*
   ** Customize the progress bar color
+  ** [TBD] デフォルトでついてるローディングバーの設定
   */
-  loading: { color: '#3B8070' },
+  loading: { color: '#C5545E' },
   /*
   ** Build configuration
   */
