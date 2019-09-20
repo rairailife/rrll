@@ -1,9 +1,7 @@
 <template>
   <div id="wrapper">
-    <h1 class="title">RaiRai-LifeLog</h1>
-
+    <h1 class="title">R<span class="ani1">a</span>iRai-<span class="ani2">L</span>ifeLo<span class="ani3">g</span></h1>
     <main class="container">
-      <!-- <app-logo/> -->
       <div class="demo" augmented-ui="tl-clip br-clip exe">
         らいらい！<br>
         惑星RRLLより通信中。<br>
@@ -42,51 +40,16 @@
       <!-- <hr> -->
     </main>
 
-    <footer class="footer">
-      <div>
-        This is rairai chan's life log.<br>
-        LinKs｜<a href="https://sai-test.netlify.com">sai</a>
-      </div>
-      <span>Copyright &copy; 2019 rairai-chan</span>
-    </footer>
+    <Footer/>
   </div>
 </template>
 
 <script>
-import AppLogo from '~/components/AppLogo.vue'
+import Footer from '~/components/Footer.vue'
 
 export default {
   components: {
-    AppLogo
-  },
-  data() {
-    return {
-        isLoaded: true,
-        current: '200706',
-        projects: [
-            {
-            id: 200706,
-            title: "タイトルイチ",
-            src: require("assets/img/mwam.jpg"),
-            release: "2007年9月",
-            more: "ダミーテキストイチ"
-            },
-            {
-            id: 200803,
-            title: "タイトルニ",
-            src: require("assets/img/Gogh_1888_Nuit.jpg"),
-            release: "2008年3月",
-            more: "ダミーテキスト二"
-            },
-            {
-            id: 200805,
-            title: "タイトルサン",
-            src: require("assets/img/Gogh_1889_Nuit.jpg"),
-            release: "2008年6月",
-            more: "ダミーテキストサン"
-            }
-        ]
-    };
+    Footer
   }
 }
 </script>
@@ -112,15 +75,16 @@ body {
   justify-content : center;
   align-items:      center;
   text-align:       center;
-  min-height:       100vh;
-  width:            100vw;
+  min-height:       100%;
+  width:            100%;
+  box-sizing:       border-box;
 }
 
 #wrapper {
   display:        flex;
   flex-direction: column;
-  min-height:     100vh;
-  width:          100vw;
+  min-height:     100%;
+  width:          100%;
 }
 
 h1 {
@@ -133,34 +97,85 @@ h2 {
   line-height: 1.2em;
 }
 
+/* .title {
+	text-align:  center;
+	text-shadow: 0 0 10px #C5545E, 0 0 20px #C5545E, 0 0 30px #C5545E, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+  } */
 .title {
   font-family: 'Changa', sans-serif;
-	text-align:  center;
 	margin:      20px auto;
-	color:       #fff;
-	text-shadow: 0 0 10px #C5545E, 0 0 20px #C5545E, 0 0 30px #C5545E, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+  display: inline-block;
+  color: #fff;
+  letter-spacing: .05em;
+  text-shadow: 0 1px 30px #FB1684, 0 0 12px #fff, 2px 5px 60px #990a52;
+
+  border: #fff 8px solid;
+  border-radius: 16px;
+  padding: .5em 1.5em;
+  box-shadow: 0 0 10px lime, 0 0 20px lime, 0 0 30px lime, 0 0 40px lightgreen, 0 0 70px lightgreen, 0 0 80px lightgreen, 0 0 100px lightgreen, 0 0 150px lightgreen,
+              0 0 10px lime inset, 0 0 20px lime inset, 0 0 30px lime inset, 0 0 40px lightgreen inset, 0 0 70px lightgreen inset, 0 0 80px lightgreen inset, 0 0 100px lightgreen inset, 0 0 150px lightgreen inset;
 }
 
-.footer {
-  margin-top:       auto;
-  background-color: #474747;
-  color:            #222;
-  text-shadow:      0px 2px 3px #666;
+.title span.ani1 {
+  animation: blink 3s infinite alternate;
 }
 
-.footer a {
-	color:            #C5545E;
-  text-decoration: none;
-  transition: all 0.1s ease 0.2s;
-  text-shadow: none;
+.title span.ani2 {
+  animation: blink2 2s infinite alternate;
 }
-.footer a:hover {
-	color:       #F3E5E6;
-	text-shadow: 0 0 10px #C5545E, 0 0 20px #C5545E, 0 0 30px #C5545E, 0 0 40px #ff00de, 0 0 70px #F3E5E6, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #F3E5E6;
+
+.title span.ani3 {
+  opacity: .4;
+  /* transform:        rotate(10deg); */
+  animation: blink3 10s infinite alternate;
 }
-.footer::selection {
-  background: #222;
-  color:      #474747;
+@keyframes blink {
+  40% {
+    opacity: .85;
+  }
+  42% {
+    opacity: .4;
+  }
+  43% {
+    opacity: .85;
+  }
+  45% {
+    opacity: .4;
+  }
+  46% {
+    opacity: .85;
+  }
+}
+@keyframes blink2 {
+  10% {
+    opacity: .85;
+  }
+  12% {
+    opacity: .4;
+  }
+  40% {
+    opacity: .85;
+  }
+  42% {
+    opacity: .4;
+  }
+  43% {
+    opacity: .85;
+  }
+  45% {
+    opacity: .4;
+  }
+  46% {
+    opacity: .85;
+  }
+}
+@keyframes blink3 {
+  10% {
+    opacity: .85;
+  }
+  12% {
+    opacity: .4;
+  }
 }
 
 
@@ -177,4 +192,3 @@ h2 {
             --aug-inset-bg: gold;
           }
 </style>
-
