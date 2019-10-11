@@ -12,6 +12,9 @@
       <dt>RACE</dt>
       <dd>human</dd>
 
+      <dt>COUNTRY</dt>
+      <dd>Japan</dd>
+
       <dt>LANGUAGE</dt>
       <dd>Java[Struts2], C#.NET, VB.NET, Javascript, JQuer, Vue.js, Nuxt.js</dd>
 
@@ -25,7 +28,7 @@
       <dd>rairailife</dd>
 
       <dt>twitter</dt>
-      <dd>rairailife</dd>
+      <dd>@rairailife</dd>
 
       <dt>FINAL FANTASY</dt>
       <dd>
@@ -33,29 +36,17 @@
         I want to live in Lindbulm. I want to be a engineer of Flying boat.<br>
         My second favorite CRISIS CORE.<br>
         I love Aerith and Zax. I wish for their happiness.<br>
-        When I clear it, I was too cry. The last is saddness.<br>
+        When I think them I cry every time.<br>
         I hold my dream. WE ARE HERO.<br>
       </dd>
 
       <dt>JOJO's bizzar adventure</dt>
       <dd>I love all JOJOs. I especially like Josuke Higashikata above all the JOJOs.</dd>
     </dl>
-
-    <Footer/>
   </div>
 </template>
 
-<script>
-import Footer from '~/components/Footer.vue'
-
-export default {
-  components: {
-    Footer
-  }
-}
-</script>
-
-<style>
+<style scoped>
 * {
   padding: 0;
   margin:  0;
@@ -105,25 +96,13 @@ h2 {
   line-height: 1.2em;
 }
 
-.title {
+/* .title {
   font-family: 'Changa', sans-serif;
 	text-align:  center;
 	margin:      20px auto;
 	color:       #fff;
 	text-shadow: 0 0 10px #C5545E, 0 0 20px #C5545E, 0 0 30px #C5545E, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
-}
+} */
 
 
-          div.demo {
-            display: inline-block;
-            /* width: 110px; */
-            /* height: 110px; */
-            margin: 10px;
-            --aug-border: 5px;
-            --aug-inset: 5px;
-            padding: 10px; /* mind the gap */
-            text-align: center;
-            --aug-border-bg: gold;
-            --aug-inset-bg: gold;
-          }
 </style>

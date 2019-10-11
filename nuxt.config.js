@@ -12,8 +12,7 @@ module.exports = {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet',  href: 'https://fonts.googleapis.com/css?family=Changa&display=swap' },
-      { rel: 'stylesheet',  type: 'text/css', href: 'https://unpkg.com/augmented-ui/augmented.css' }
+      { rel: 'stylesheet',  href: 'https://fonts.googleapis.com/css?family=Changa&display=swap' }
     ]
   },
   /*
