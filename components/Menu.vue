@@ -13,14 +13,14 @@ export default {
       menuList: [
         {title: 'profile', url: '/profile'},
         {title: 'かてごりー２', url: ''},
-        {title: 'かてごりー３', url: ''},
-        {title: 'かてごりー４', url: ''},
-        {title: 'かてごりー５', url: ''},
-        {title: 'かてごりー６', url: ''},
-        {title: 'かてごりー７', url: ''},
-        {title: 'かてごりー８', url: ''},
-        {title: 'かてごりー９', url: ''},
-        {title: 'かてごりー０', url: ''},
+        // {title: 'かてごりー３', url: ''},
+        // {title: 'かてごりー４', url: ''},
+        // {title: 'かてごりー５', url: ''},
+        // {title: 'かてごりー６', url: ''},
+        // {title: 'かてごりー７', url: ''},
+        // {title: 'かてごりー８', url: ''},
+        // {title: 'かてごりー９', url: ''},
+        // {title: 'かてごりー０', url: ''},
       ]
     }
   }
@@ -28,14 +28,14 @@ export default {
 </script>
 
 <style scoped>
-* {
+/* * {
   padding:    0;
   margin:     0;
   width:      100%;
-}
+} */
 
-.menu, a {
+/* .menu, a {
   color: #000000;
-}
+} */
 </style>
 
