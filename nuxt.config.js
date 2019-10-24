@@ -15,6 +15,10 @@ module.exports = {
       { rel: 'stylesheet',  href: 'https://fonts.googleapis.com/css?family=Changa&display=swap' }
     ]
   },
+  css: [
+    '@/assets/style/reset.css',
+    '@/assets/style/main.scss'
+  ],
   /*
   ** Customize the progress bar color
   ** [TBD] デフォルトでついてるローディングバーの設定
