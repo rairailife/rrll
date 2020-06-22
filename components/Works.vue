@@ -5,12 +5,15 @@
         <h2 class="heading-primary">WORKS</h2>
       </div>
       <div class="section-lead">
-        <p>Web（デザインとコーディング）制作の記録です。<br>デザイン練習用の架空サイト（ファーストビューのみ）も含んでおります。</p>
+        <p>
+          Web（デザインとコーディング）制作の記録です。<br>
+          デザイン練習用の架空サイト（ファーストビューのみ）も含んでおります。
+        </p>
       </div>
       <div class="section-body works">
         <div class="works-list js-my-gallery">
           <figure class="works-item">
-            <a href="/images/works/company.jpg" data-size="960x720" class="works-image-wrapper works-link hover-action">かんっ
+            <a href="/images/works/company.jpg" data-size="960x720" class="works-image-wrapper works-link hover-action">
               <img class="works-image lazyload fadein" src="/images/placeholder4x3.png" data-src="/images/works/company.jpg" alt="" />
             </a>
             <figcaption class="works-body">

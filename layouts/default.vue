@@ -29,6 +29,13 @@ export default {
     Menu,
     Header,
     Footer
+  },
+  head () {
+    return {
+      script: [
+        { src: '/js/script.js' }
+      ]
+    }
   }
 }
 </script>
