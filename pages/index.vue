@@ -1,45 +1,52 @@
 <template>
-  <div class="titleList">
-    <div class="article" v-for="(article, index) in articles" :key=index>
-      <h2>{{ article.title }}</h2>
-      <span>{{ article.date }}</span>
-      <p>
-        <!-- <img :srcset=article.img> -->
-        {{ article.details }}<br>
-        <a :href=article.url>more</a>
-      </p>
-    </div>
+  <div class="wrapper">
+      <!-- .works-section -->
+      <Works/>
+      <!-- /.works-section -->
+
+      <!-- .feature-section -->
+      <Feature/>
+      <!-- /.feature-section -->
+
+      <!-- .about-section -->
+      <About/>
+      <!-- /.about-section -->
+
+      <!-- .skill-section -->
+      <Skills/>
+      <!-- /.skill-section -->
+
+      <!-- .contact-section -->
+      <Contact/>
+      <!-- /.contact-section -->
+
+
+    <!-- カラー<br>
+    #E8E7E3 R 232 G 231 B 227:<span style="color:#E8E7E3;">■<b>薄緑寄りグレー</b></span><br>
+    #C3C3BA R 195 G 195 B 186:<span style="color:#C3C3BA;">■<b>グレーグリーン？</b></span><br>
+    #F9D1CD R 249 G 209 B 205:<span style="color:#F9D1CD;">■<b>ピンク系</b></span><br>
+    #645154 R 100 G  81 B  84:<span style="color:#645154;">■<b>茶色系</b></span><br> -->
+
   </div>
 </template>
 
 <script>
+import Works from '~/components/Works.vue'
+import Feature from '~/components/Feature.vue'
+import About from '~/components/About.vue'
+import Skills from '~/components/Skills.vue'
+import Contact from '~/components/Contact.vue'
+
 export default {
-  layout: 'default',
-  data () {
-    return {
-      articles: [
-        {title: 'たいとる１', date: '2019/10/01', details: '記事内容最初の数文字...', img: 'entry/20190101/img/eyecatch.jpg', url: '/entry/20190101/entry.html'},
-        {title: 'たいとる２', date: '2019/09/01', details: '記事内容最初の数文字...', img: 'entry/20190101/img/eyecatch.jpg', url: '/entry/20190101/entry.html'}
-      ]
-    }
+  components: {
+    Works,
+    Feature,
+    About,
+    Skills,
+    Contact
   }
 }
 </script>
 
 <style scoped>
-/* .titleList { */
-  /* background-color: #222;
-  color:            #F3E5E6; */
-  /* padding:    0;
-  margin:     0;
-  width:      100%; */
-/* } */
-
-/* .article {
-  color: #474747;
-} */
-/* h2 {
-  color:       #222;
-  text-shadow: -1px -1px 1px #474747, 1px 1px #000000;
-} */
 </style>

@@ -8,7 +8,7 @@ module.exports = {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'rairai chan&apos;s life log' }
+      { hid: 'description', name: 'description', content: 'rairai chang&apos;s life log' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
@@ -17,13 +17,14 @@ module.exports = {
   },
   css: [
     '@/assets/style/reset.css',
-    '@/assets/style/main.scss'
+    '@/assets/style/style.css'
+    // '@/assets/style/main.scss'
   ],
   /*
   ** Customize the progress bar color
   ** [TBD] デフォルトでついてるローディングバーの設定
   */
-  loading: { color: '#C5545E' },
+  // loading: { color: '#C5545E' },
   /*
   ** Build configuration
   */
