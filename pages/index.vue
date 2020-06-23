@@ -31,11 +31,11 @@
 </template>
 
 <script>
-import Works from '~/components/Works.vue'
-import Feature from '~/components/Feature.vue'
-import About from '~/components/About.vue'
-import Skills from '~/components/Skills.vue'
-import Contact from '~/components/Contact.vue'
+import Works from '~/pages/Works.vue'
+import Feature from '~/pages/Feature.vue'
+import About from '~/pages/About.vue'
+import Skills from '~/pages/Skills.vue'
+import Contact from '~/pages/Contact.vue'
 
 export default {
   components: {

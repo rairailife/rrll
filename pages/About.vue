@@ -16,10 +16,14 @@
           </div>
           <div class="about-body">
             <p>
-              本webサイトのレイアウトは<a href="https://webdesigner-go.com/template/portfolio-02/">ポートフォリオHTMLテンプレート（ベーシック） | 未経験からWebデザイナーへ！【2020年版】 </a>を使用したしました。
+              <a href="https://github.com/rairailife">GitHub</a><br>
+              <a href="https://qiita.com/rairailife">Qiita</a>
             </p>
             <p>
-              テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+              テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+            </p>
+            <p>
+              本webサイトのレイアウトは<a href="https://webdesigner-go.com/template/portfolio-02/">ポートフォリオHTMLテンプレート（ベーシック） | 未経験からWebデザイナーへ！【2020年版】 </a>を使用したしました。
             </p>
           </div>
         </div>
